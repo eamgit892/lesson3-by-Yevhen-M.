@@ -1,0 +1,18 @@
+.Sidebar {
+    grid-area: side;
+    border-left: 1px gray;
+    background-color: lightgray;
+    text-align: left;
+}
+
+.Sidebar ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+

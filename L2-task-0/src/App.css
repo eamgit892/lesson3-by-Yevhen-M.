@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  display: grid;
+  grid-template-areas: 
+  "head head head"
+  "main main side"
+  "foot foot foot";
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
